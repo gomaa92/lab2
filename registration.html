@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel='stylesheet' href='css/formstyle.css' />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href='welcome.html'>Welcome</a>
+        </li>
+        <li>
+          <a href='home.html'>Home</a>
+        </li>
+        <li>
+          <a href='site.html'>Site directory</a>
+        </li>
+        <li>
+          <a href='registration.html'>Registration</a>
+        </li>
+        <li>
+          <a href='login.html'>Login</a>
+        </li>
+        <li>
+          <a href='page.html'>My page</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+    <div class="container">
+        <div class="header">
+            Contact Us
+        </div>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend><span>1</span>Account information</legend>
+                <div class="parent">
+                    <div class="left">
+                        <div>Username*</div>
+                        <div>Password*</div>
+                        <div>Confirm Password*</div>
+                        <div>Credit Card No*</div>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="username" /><br>
+                        <input type="password" name="password"><br>
+                        <input type="password" name="confirm"><br>
+                        <input type="number" name="credit" /><br>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend><span>2</span>Personal information</legend>
+                <div class="parent">
+                    <div class="left left2">
+                        <div>Name*</div>
+                        <div>Date of Birth*</div>
+                        <div>Favorite Color"*</div>
+                        <div>Profile Photo*</div>
+                        <div>Favorite Browser*</div>
+                    </div>
+                    <div class="right rigt2">
+                        <input type="text" name="name" /><br>
+                        <input type="date" name="date"><br>
+                        <input type="color" name="color"><br>
+                        <input type="file" name="file" /><br>
+                        <input type="text" name="browser" /><br>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend><span>3</span>Company information</legend>
+                <div class="parent">
+                    <div class="left left3">
+                        <div>No. Of Emplayees*</div>
+                        <div>External Resource*</div>
+                    </div>
+                    <div class="right right3">
+                        <input type="number" name="empNum" /><br>
+                        <input type="range" name="range"><br>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend><span>4</span>Contact information</legend>
+                <div class="parent">
+                    <div class="left left4">
+                        <div>Email Address*</div>
+                        <div>Phone Number*</div>
+                        <div>Website URL*</div>
+                    </div>
+                    <div class="right">
+                        <input type="email" name="username" /><br>
+                        <input type="text" name="password"><br>
+                        <input type="url" name="confirm"><br>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <fieldset class="sub">
+                <div>
+                    <button type="submit" class="sub1">Submit</button>
+                    <button type="submit" class="sub2">Cancel</button>
+                </div>
+            </fieldset>
+
+        </form>
+
+    </div>
+
+
+
+
+  </body>
+</html>
